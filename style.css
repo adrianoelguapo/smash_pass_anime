@@ -10,118 +10,133 @@
     z-index: -1;
 }
 
-body{
+body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 /* --- Estilos para el index --- */
-.tituloindex{
-    flex-direction: column;
+.tituloindex {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-top: 15%;
+    width: 90%;
+    max-width: 500px;
+    margin: 15% auto;
     font-size: 50px;
-
     background-color: white;
-    margin-left: 25%;
     border-radius: 50px;
+    padding: 20px;
 }
 
-.tituloindexpequeño{
+.tituloindexpequeño {
     font-size: 25px;
 }
 
-a .botonindex{
+a .botonindex {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     text-align: center;
-
-    margin-bottom: 40%;
+    margin-bottom: 20px;
     transition: transform 0.5s;
-
     border-radius: 100px;
     background-color: rgb(168, 37, 109);
     color: white;
+    text-decoration: none;
 }
 
-a .botonindex:hover{
+a .botonindex:hover {
     transform: scale(1.15);
     cursor: pointer;
 }
 
 /* --- Estilos para el juego --- */
-.contenedor{
+.contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.tarjeta{
+.tarjeta {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    height: 75vh;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .tarjeta img.fotopersonaje {
-    border-radius: 10px 10px 0px 0px;
-    height: 100%;
-    width: 600px;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
 }
 
-.tarjeta .nombrepersonaje{
+.tarjeta .nombrepersonaje {
     font-size: 25px;
+    margin-top: 10px;
 }
 
-.tarjeta .animepersonaje{
+.tarjeta .animepersonaje {
     margin-top: -1%;
 }
 
-.tarjeta .botonestarjeta{
+.tarjeta .botonestarjeta {
     display: flex;
-    gap: 30%;
+    gap: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .tarjeta .botonestarjeta .botonpass,
-.tarjeta .botonestarjeta .botonsmash{
+.tarjeta .botonestarjeta .botonsmash {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     text-align: center;
-
-    margin-bottom: 40%;
     transition: transform 0.5s;
-
     border-radius: 100px;
     background-color: rgb(168, 37, 109);
     color: white;
+    cursor: pointer;
 }
 
 .tarjeta .botonestarjeta .botonpass:hover,
-.tarjeta .botonestarjeta .botonsmash:hover{
+.tarjeta .botonestarjeta .botonsmash:hover {
     transform: scale(1.15);
-    cursor: pointer;
+}
+
+/* --- Media Queries para Responsividad --- */
+@media (max-width: 768px) {
+    .tituloindex {
+        margin: 20% auto;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .tituloindexpequeño {
+        font-size: 20px;
+    }
+
+    .tarjeta .nombrepersonaje {
+        font-size: 20px;
+    }
 }
