@@ -8,6 +8,7 @@
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    display: block; /* Asegúrate de que se muestre por defecto */
 }
 
 body {
@@ -142,5 +143,11 @@ a .botonindex:hover {
 
     body {
         background-image: url("/images/wallpaper.webp");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .background {
+        display: none; /* Ocultar el video de fondo en dispositivos móviles */
     }
 }
