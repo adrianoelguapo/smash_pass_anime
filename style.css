@@ -139,4 +139,8 @@ a .botonindex:hover {
     .tarjeta .nombrepersonaje {
         font-size: 20px;
     }
+
+    body {
+        background-image: url("/images/wallpaper.webp");
+    }
 }
