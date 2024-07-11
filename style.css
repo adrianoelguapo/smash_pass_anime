@@ -53,6 +53,7 @@ a .botonindex {
     background-color: rgb(168, 37, 109);
     color: white;
     text-decoration: none;
+    border: none;
 }
 
 a .botonindex:hover {
@@ -91,7 +92,12 @@ a .botonindex:hover {
 
 .tarjeta .nombrepersonaje {
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 5%;
+}
+
+.tarjeta .nopersonaje {
+    font-size: 25px;
+    margin-top: 7.5%;
 }
 
 .tarjeta .animepersonaje {
@@ -102,7 +108,7 @@ a .botonindex:hover {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1%;
 }
 
 .tarjeta .botonestarjeta .botonpass,
@@ -118,6 +124,7 @@ a .botonindex:hover {
     background-color: rgb(168, 37, 109);
     color: white;
     cursor: pointer;
+    border: none;
 }
 
 .tarjeta .botonestarjeta .botonpass:hover,

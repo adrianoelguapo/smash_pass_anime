@@ -356,7 +356,7 @@ let charactersData = [
     {
         id: "60",
         name: "Daichi Sawamura",
-        image: "../images/sugawara.webp",
+        image: "../images/sawamura.webp",
         anime: "Haikyuu!!"
     },
     {
@@ -440,7 +440,7 @@ $(function () {
 
             $(".contenedor").append(`
                 <div class="tarjeta">
-                    <p class="nombrepersonaje"> Ya no quedan mas personajes </p>
+                    <p class="nopersonaje"> Ya no quedan mas personajes </p>
                 </div>
             `)
             seleccionar();
