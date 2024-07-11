@@ -431,6 +431,120 @@ let charactersData = [
         image: "../images/tsukumo.webp",
         anime: "Jujutsu Kaisen"
     },
+    {
+        id: "73",
+        name: "Gon Freecss",
+        image: "../images/gon.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "74",
+        name: "Killua Zoldyck",
+        image: "../images/killua.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "75",
+        name: "Leorio Paradinight",
+        image: "../images/leorio.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "76",
+        name: "Hisoka Morow",
+        image: "../images/morow.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "77",
+        name: "Chrollo Lucilfer",
+        image: "../images/chrollo.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "77",
+        name: "Chrollo Lucilfer",
+        image: "../images/chrollo.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "78",
+        name: "Biscuit Krueger",
+        image: "../images/biscuit.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "79",
+        name: "Isaac Netero",
+        image: "../images/netero.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "80",
+        name: "Ging Freecss",
+        image: "../images/ging.webp",
+        anime: "Hunter X Hunter"
+    },
+    {
+        id: "81",
+        name: "Shinra Kusakabe",
+        image: "../images/shinra.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "82",
+        name: "Arthur Boyle",
+        image: "../images/arthur.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "83",
+        name: "Iris",
+        image: "../images/iris.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "84",
+        name: "Maki Oze",
+        image: "../images/oze.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "85",
+        name: "Takehisa Hinawa",
+        image: "../images/hinawa.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "86",
+        name: "Akitaru Obi",
+        image: "../images/obi.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "87",
+        name: "Joker",
+        image: "../images/joker.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "88",
+        name: "Benimaru Shinmon",
+        image: "../images/benimaru.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "89",
+        name: "Haumea",
+        image: "../images/haumea.webp",
+        anime: "Fire Force"
+    },
+    {
+        id: "90",
+        name: "Sho Kusakabe",
+        image: "../images/sho.webp",
+        anime: "Fire Force"
+    },
 ]
 
 $(function () {
