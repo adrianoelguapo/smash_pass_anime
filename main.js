@@ -545,6 +545,54 @@ let charactersData = [
         image: "../images/sho.webp",
         anime: "Fire Force"
     },
+    {
+        id: "91",
+        name: "Ken Kaneki",
+        image: "../images/kaneki.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "92",
+        name: "Touka Kirishima",
+        image: "../images/touka.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "93",
+        name: "Rize Kamishiro",
+        image: "../images/rize.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "94",
+        name: "Amon Koutarou",
+        image: "../images/amon.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "95",
+        name: "Juuzou Suzuya",
+        image: "../images/suzuya.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "96",
+        name: "Hinami Fueguchi",
+        image: "../images/fueguchi.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "97",
+        name: "Ayato Kirishima",
+        image: "../images/ayato.webp",
+        anime: "Tokyo Ghoul"
+    },
+    {
+        id: "98",
+        name: "Eto Yoshimura",
+        image: "../images/yoshimura.webp",
+        anime: "Tokyo Ghoul"
+    }
 ]
 
 $(function () {
