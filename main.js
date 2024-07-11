@@ -211,9 +211,225 @@ let charactersData = [
     },
     {
         id: "36",
-        name: "Zeke Jager",
+        name: "Zeke Jaeger",
         image: "../images/zeke.webp",
         anime: "Attack on Titan"
+    },
+    {
+        id: "37",
+        name: "Midoriya Izuku",
+        image: "../images/midoriya.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "38",
+        name: "Katsuki Bakugou",
+        image: "../images/bakugo.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "39",
+        name: "Shoto Todoroki",
+        image: "../images/shoto.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "40",
+        name: "Eijiro Kirishima",
+        image: "../images/kirishima.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "41",
+        name: "Ochaco Uraraka",
+        image: "../images/uraraka.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "42",
+        name: "Tsuyu Asui",
+        image: "../images/asui.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "43",
+        name: "Tenya Iida",
+        image: "../images/iida.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "44",
+        name: "Denki Kaminari",
+        image: "../images/kaminari.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "45",
+        name: "Momo Yaoyorozu",
+        image: "../images/yaoyorozu.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "46",
+        name: "Kyoka Jiro",
+        image: "../images/jiro.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "47",
+        name: "Yuga Aoyama",
+        image: "../images/aoyama.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "48",
+        name: "All Might",
+        image: "../images/allmight.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "49",
+        name: "Shota Aizawa",
+        image: "../images/aizawa.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "50",
+        name: "Nemuri Kayama",
+        image: "../images/nemuri.webp",
+        anime: "Boku no Hero"
+    },
+    {
+        id: "51",
+        name: "Shoyo Hinata",
+        image: "../images/hinata.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "52",
+        name: "Tobio Kageyama",
+        image: "../images/kageyama.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "53",
+        name: "Yu Nishinoya",
+        image: "../images/nishinoya.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "54",
+        name: "Kei Tsukishima",
+        image: "../images/tsukishima.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "55",
+        name: "Tooru Oikawa",
+        image: "../images/oikawa.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "56",
+        name: "Koshi Sugawara",
+        image: "../images/sugawara.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "57",
+        name: "Koutaro Bokuto",
+        image: "../images/bokuto.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "58",
+        name: "Koutaro Bokuto",
+        image: "../images/bokuto.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "59",
+        name: "Kenma Kozume",
+        image: "../images/kozume.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "60",
+        name: "Daichi Sawamura",
+        image: "../images/sugawara.webp",
+        anime: "Haikyuu!!"
+    },
+    {
+        id: "61",
+        name: "Satoru Gojo",
+        image: "../images/gojo.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "62",
+        name: "Megumi Fushiguro",
+        image: "../images/fushiguro.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "63",
+        name: "Nobara Kugisaki",
+        image: "../images/kugisaki.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "64",
+        name: "Yuji Itadori",
+        image: "../images/itadori.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "65",
+        name: "Yuta Okkotsu",
+        image: "../images/okkotsu.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "66",
+        name: "Toge Inumaki",
+        image: "../images/inumaki.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "67",
+        name: "Maki Zenin",
+        image: "../images/maki.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "68",
+        name: "Shoko Ieiri",
+        image: "../images/shoko.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "69",
+        name: "Utahime Iori",
+        image: "../images/utahime.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "70",
+        name: "Kento Nanami",
+        image: "../images/nanami.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "71",
+        name: "Mei Mei",
+        image: "../images/meimei.webp",
+        anime: "Jujutsu Kaisen"
+    },
+    {
+        id: "72",
+        name: "Yuki Tsukumo",
+        image: "../images/tsukumo.webp",
+        anime: "Jujutsu Kaisen"
     },
 ]
 
